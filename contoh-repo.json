@@ -1,0 +1,18 @@
+{
+  "name": "Repo Contoh",
+  "sources": [
+    {
+      "name": "NamaSitus",
+      "type": "manhwa",
+      "baseUrl": "https://contoh-situs.com",
+      "list": "/page/{p}/",
+      "search": "/?s={q}",
+      "itemSel": ".listupd .bs",
+      "titleSel": "a@title",
+      "linkSel": "a@href",
+      "coverSel": "img@src",
+      "chapterSel": "#chapterlist li a",
+      "pageSel": "#readerarea img@src"
+    }
+  ]
+}
